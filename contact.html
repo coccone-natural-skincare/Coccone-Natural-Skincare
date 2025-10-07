@@ -3,53 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Liên hệ - Coccone Natural Skincare</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <style>
-    body { font-family: 'Poppins', sans-serif; background-color: #fff; color: #7a3b54; }
-    .brand { color: #d981a4; }
-    .btn { background-color: #f9dce1; color: #7a3b54; padding: 10px 20px; border-radius: 8px; }
-    .btn:hover { background-color: #f6b9c5; }
-  </style>
+  <title>Liên hệ | Coccone</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- Header -->
-  <header class="flex items-center justify-between px-8 py-4 bg-pink-50 shadow">
-    <img src="assets/logo.jpg" alt="Coccone Logo" class="h-14">
+  <header>
+    <img src="assets/logo.png" class="logo">
     <nav>
-      <a href="index.html" class="mx-3 hover:underline">Trang chủ</a>
-      <a href="products.html" class="mx-3 hover:underline">Sản phẩm</a>
-      <a href="contact.html" class="mx-3 hover:underline font-semibold">Liên hệ</a>
+      <a href="index.html">Trang chủ</a>
+      <a href="products.html">Sản phẩm</a>
+      <a href="about.html">Giới thiệu</a>
+      <a href="contact.html" class="active">Liên hệ</a>
     </nav>
   </header>
 
-  <!-- Form liên hệ -->
-  <section class="p-10 text-center max-w-xl mx-auto">
-    <h1 class="text-3xl font-bold mb-4 brand">Liên hệ với Coccone</h1>
-    <p class="mb-6">Hãy để lại lời nhắn, chúng tôi sẽ phản hồi sớm nhất 💌</p>
-
-    <form class="text-left space-y-4">
-      <div>
-        <label class="block mb-1">Họ và tên</label>
-        <input type="text" class="w-full border border-pink-200 rounded-lg p-2">
-      </div>
-      <div>
-        <label class="block mb-1">Email</label>
-        <input type="email" class="w-full border border-pink-200 rounded-lg p-2">
-      </div>
-      <div>
-        <label class="block mb-1">Tin nhắn</label>
-        <textarea rows="4" class="w-full border border-pink-200 rounded-lg p-2"></textarea>
-      </div>
-      <button type="submit" class="btn mt-4">Gửi tin nhắn</button>
-    </form>
+  <section class="contact">
+    <h2>Liên hệ với chúng tôi</h2>
+    <p>Email: <a href="mailto:cocconens@gmail.com">cocconens@gmail.com</a></p>
+    <p>Điện thoại: 1234567890</p>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-pink-50 text-center py-4 text-sm mt-8">
-    © 2025 Coccone Natural Skincare | Made with 💗 in Vietnam
-  </footer>
-
+  <footer>© 2025 Coccone Natural Skincare — All Rights Reserved.</footer>
 </body>
 </html>
