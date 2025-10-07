@@ -3,67 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sản phẩm - Coccone Natural Skincare</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <style>
-    body { font-family: 'Poppins', sans-serif; background-color: #fff; color: #7a3b54; }
-    .brand { color: #d981a4; }
-  </style>
+  <title>Sản phẩm | Coccone</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-
-  <!-- Header -->
-  <header class="flex items-center justify-between px-8 py-4 bg-pink-50 shadow">
-    <img src="assets/logo.jpg" alt="Coccone Logo" class="h-14">
+  <header>
+    <img src="assets/logo.png" class="logo" alt="Coccone Logo">
     <nav>
-      <a href="index.html" class="mx-3 hover:underline">Trang chủ</a>
-      <a href="products.html" class="mx-3 hover:underline font-semibold">Sản phẩm</a>
-      <a href="contact.html" class="mx-3 hover:underline">Liên hệ</a>
+      <a href="index.html">Trang chủ</a>
+      <a href="products.html" class="active">Sản phẩm</a>
+      <a href="about.html">Giới thiệu</a>
+      <a href="contact.html">Liên hệ</a>
     </nav>
   </header>
 
-  <!-- Sản phẩm -->
-  <section class="p-8 text-center max-w-6xl mx-auto">
-    <h1 class="text-3xl font-bold mb-8 brand">Sản phẩm nổi bật</h1>
-
-    <div class="grid md:grid-cols-3 gap-8">
-      <div class="shadow-lg p-4 rounded-lg bg-pink-50">
-        <img src="assets/sp1.jpg" class="rounded-lg mb-3">
-        <h3 class="font-semibold text-xl">Kem dưỡng da hoa hồng</h3>
-        <p class="text-sm">Dưỡng ẩm và làm sáng da tự nhiên.</p>
-      </div>
-      <div class="shadow-lg p-4 rounded-lg bg-pink-50">
-        <img src="assets/sp2.jpg" class="rounded-lg mb-3">
-        <h3 class="font-semibold text-xl">Sữa rửa mặt thiên nhiên</h3>
-        <p class="text-sm">Làm sạch nhẹ nhàng, không gây khô da.</p>
-      </div>
-      <div class="shadow-lg p-4 rounded-lg bg-pink-50">
-        <img src="assets/sp3.jpg" class="rounded-lg mb-3">
-        <h3 class="font-semibold text-xl">Toner hoa anh đào</h3>
-        <p class="text-sm">Cân bằng da, se khít lỗ chân lông.</p>
-      </div>
-      <div class="shadow-lg p-4 rounded-lg bg-pink-50">
-        <img src="assets/sp4.jpg" class="rounded-lg mb-3">
-        <h3 class="font-semibold text-xl">Dầu gội dưỡng tóc</h3>
-        <p class="text-sm">Nuôi dưỡng tóc chắc khỏe, bóng mượt.</p>
-      </div>
-      <div class="shadow-lg p-4 rounded-lg bg-pink-50">
-        <img src="assets/sp5.jpg" class="rounded-lg mb-3">
-        <h3 class="font-semibold text-xl">Serum Vitamin C</h3>
-        <p class="text-sm">Giúp làm đều màu da và chống oxy hóa.</p>
-      </div>
-      <div class="shadow-lg p-4 rounded-lg bg-pink-50">
-        <img src="assets/sp6.jpg" class="rounded-lg mb-3">
-        <h3 class="font-semibold text-xl">Mặt nạ dưỡng ẩm</h3>
-        <p class="text-sm">Tái tạo và phục hồi làn da mệt mỏi.</p>
-      </div>
+  <section class="products">
+    <h2>Sản phẩm nổi bật</h2>
+    <div class="product-grid">
+      <div class="card"><img src="assets/product1.jpg"><h3>Sản phẩm 1</h3></div>
+      <div class="card"><img src="assets/product2.jpg"><h3>Sản phẩm 2</h3></div>
+      <div class="card"><img src="assets/product3.jpg"><h3>Sản phẩm 3</h3></div>
+      <div class="card"><img src="assets/product4.jpg"><h3>Sản phẩm 4</h3></div>
+      <div class="card"><img src="assets/product5.jpg"><h3>Sản phẩm 5</h3></div>
+      <div class="card"><img src="assets/product6.jpg"><h3>Sản phẩm 6</h3></div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-pink-50 text-center py-4 text-sm">
-    © 2025 Coccone Natural Skincare | Made with 💗 in Vietnam
-  </footer>
-
+  <footer>© 2025 Coccone Natural Skincare — All Rights Reserved.</footer>
 </body>
 </html>
