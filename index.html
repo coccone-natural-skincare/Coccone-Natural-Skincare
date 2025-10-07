@@ -4,47 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coccone Natural Skincare</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <style>
-    body { font-family: 'Poppins', sans-serif; background-color: #fff; color: #7a3b54; }
-    .brand { color: #d981a4; }
-    .btn { background-color: #f9dce1; color: #7a3b54; padding: 10px 20px; border-radius: 8px; }
-    .btn:hover { background-color: #f6b9c5; }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Lora&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <!-- Header -->
-  <header class="flex items-center justify-between px-8 py-4 bg-pink-50 shadow">
-    <img src="assets/logo.jpg" alt="Coccone Logo" class="h-14">
+  <header>
+    <img src="assets/logo.png" class="logo" alt="Coccone Logo">
     <nav>
-      <a href="index.html" class="mx-3 hover:underline">Trang chủ</a>
-      <a href="products.html" class="mx-3 hover:underline">Sản phẩm</a>
-      <a href="contact.html" class="mx-3 hover:underline">Liên hệ</a>
+      <a href="index.html">Trang chủ</a>
+      <a href="products.html">Sản phẩm</a>
+      <a href="about.html">Giới thiệu</a>
+      <a href="contact.html">Liên hệ</a>
     </nav>
   </header>
 
-  <!-- Banner -->
-  <section class="text-center py-12 bg-pink-100">
-    <h1 class="text-4xl font-bold brand">Coccone Natural Skincare</h1>
-    <p class="text-lg mt-3">Thương hiệu mỹ phẩm thuần chay Việt Nam – Dịu nhẹ, tự nhiên, dành cho mọi loại da 💗</p>
-    <a href="products.html" class="btn inline-block mt-6">Khám phá sản phẩm</a>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Coccone Natural Skincare</h1>
+      <p>Thương hiệu chăm sóc da thiên nhiên Việt Nam</p>
+    </div>
   </section>
 
-  <!-- Giới thiệu -->
-  <section class="p-10 text-center max-w-4xl mx-auto">
-    <h2 class="text-3xl font-bold mb-3 brand">Về Coccone</h2>
-    <p>
-      Coccone là thương hiệu mỹ phẩm thuần chay lấy cảm hứng từ thiên nhiên Việt Nam. 
-      Chúng tôi mang đến các sản phẩm chăm sóc da và tóc an toàn, lành tính, 
-      giúp bạn yêu thương bản thân và tỏa sáng vẻ đẹp tự nhiên.
-    </p>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-pink-50 text-center py-4 text-sm">
-    © 2025 Coccone Natural Skincare | Made with 💗 in Vietnam
+  <footer>
+    © 2025 Coccone Natural Skincare — All Rights Reserved.
   </footer>
-
 </body>
 </html>
